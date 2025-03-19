@@ -39,7 +39,7 @@ public class ItemTrajectoryScript : MonoBehaviour
 
         for (int i = 1; i < numPoints; i++){
             nextVel += gravity * timeStep;
-            nextVel *= (1 - rb.drag * timeStep);//Uses the gravity values and the drag of the object to try and fix the issue of how the item hits the floor before the line. 
+            nextVel *= (1 - rb.linearDamping * timeStep);//Uses the gravity values and the drag of the object to try and fix the issue of how the item hits the floor before the line. 
 
             nextPos += nextVel * timeStep;
 

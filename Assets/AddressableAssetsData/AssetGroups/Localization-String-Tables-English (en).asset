@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-English (en)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-English (en)
-  m_Data:
-    m_SerializedData: []
   m_GUID: 9873731892ddd294a8ede7b3404c4c50
   m_SerializeEntries:
+  - m_GUID: 86a380723afc76f42abd72b6b57ace92
+    m_Address: Languages_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8f27fa8529e36664c9ddf404834cae06
     m_Address: UI_en
     m_ReadOnly: 1
@@ -25,12 +29,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d00376ac9f7a1e84cb40df65b0ac6092
     m_Address: Controls_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 86a380723afc76f42abd72b6b57ace92
-    m_Address: Languages_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
